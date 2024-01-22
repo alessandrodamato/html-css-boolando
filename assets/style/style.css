@@ -87,6 +87,10 @@ main .product .product-img .favourite{
   background-color: white;
 }
 
+main .product .product-img .favourite:hover{
+  color: rgb(255, 106, 0);
+}
+
 main .product .product-name{
   font-weight: bold;
   text-transform: uppercase;
