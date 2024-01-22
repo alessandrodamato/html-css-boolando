@@ -41,6 +41,22 @@ main .product .product-img img{
   width: 400px;
 }
 
+main .product .product-img .main-img{
+  
+}
+
+main .product .product-img .hover-img{
+  display: none;
+}
+
+main .product .product-img:hover .main-img{
+  display: none;
+}
+
+main .product .product-img:hover .hover-img{
+  display: inline-block;
+}
+
 main .product .product-img .tags{
   position: absolute;
   bottom: 40px;
