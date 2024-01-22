@@ -30,7 +30,7 @@ main .box{
 }
 
 main .product{
-  margin: 50px 10px 50px;
+  margin: 50px 10px 0;
 }
 
 main .product .product-img{
@@ -99,4 +99,10 @@ main .product .discounted-price{
 
 main .product .price{
   text-decoration: line-through;
+}
+
+/* footer */
+
+footer{
+  margin-top: 50px;
 }
