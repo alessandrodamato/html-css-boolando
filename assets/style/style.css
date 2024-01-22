@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-  max-width: 80%;
+  max-width: 1270px;
   margin: 0 auto;
 }
 
@@ -21,12 +21,45 @@ body{
   font-size: .8rem;
 }
 
+ul{
+  list-style: none;
+}
+
+/* header */
+
+header{
+  height: 70px;
+  background-color: rgb(255, 106, 0);
+}
+
+header .box{
+  height: 70px;
+  padding: 0 10px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header .menu ul li a{
+  padding: 5px;
+  color: rgb(232, 232, 232);
+  text-decoration: none;
+}
+
+header .menu.categories{
+  font-weight: bold;
+}
+
+header .logo img{
+  width: 130px;
+}
+
 /* main */
 
 main .box{
   justify-content: center;
-  flex-wrap: wrap;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 main .product{
