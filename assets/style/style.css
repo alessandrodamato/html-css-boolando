@@ -32,8 +32,11 @@ header .box, footer .box{
 /* header */
 
 header{
+  width: 100%;
   height: 70px;
   background-color: rgb(255, 106, 0);
+  position: fixed;
+  z-index: 1;
 }
 
 header .box{
