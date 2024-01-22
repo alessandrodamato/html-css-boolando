@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.f-size-small{
+  font-size: .8rem;
+}
+
+/* main */
+
+main .box{
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+main .product{
+  margin: 50px 10px 50px;
+}
+
+main .product .product-img{
+  position: relative;
+}
+
+main .product .product-img img{
+  width: 400px;
+}
+
+main .product .product-img .tags{
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+}
+
+main .product .product-img .tag{
+  display: inline-block;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+main .product .product-img .tag.discount{
+  background-color:red;
+}
+
+main .product .product-img .tag.eco-green{
+  background-color:green;
+}
+
+main .product .product-img .favourite{
+  position: absolute;
+  top: 10px;
+  right: 0;
+  padding: 8px 15px;
+  font-size: 2rem;
+  background-color: white;
+}
+
+main .product .product-name{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+main .product .discounted-price{
+  font-weight: 900;
+  color: red;
+}
+
+main .product .price{
+  text-decoration: line-through;
+}
