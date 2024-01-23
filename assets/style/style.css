@@ -38,6 +38,7 @@ header{
   top: 0;
   left: 0;
   z-index: 1;
+  box-shadow: 0 1px 3px grey;
   background-color: rgb(255, 106, 0);
 }
 
@@ -52,6 +53,10 @@ header .menu ul li a{
   padding: 5px;
   text-decoration: none;
   color: rgb(232, 232, 232);
+}
+
+header .menu ul li a:hover{
+  text-decoration: underline;
 }
 
 header .menu.categories{
@@ -77,20 +82,14 @@ main .product{
 
 main .product .product-img{
   position: relative;
+  cursor: pointer;
 }
 
 main .product .product-img img{
   width: 400px;
 }
 
-main .product .product-img .main-img{
-  
-}
-
-main .product .product-img .hover-img{
-  display: none;
-}
-
+main .product .product-img .hover-img, 
 main .product .product-img:hover .main-img{
   display: none;
 }
@@ -188,6 +187,10 @@ footer nav ul a{
 
 footer .footer-left nav ul li a{
   padding-right: 10px;
+}
+
+footer .footer-left nav ul li a:hover{
+  text-decoration: underline;
 }
 
 footer .footer-right nav ul li a{
